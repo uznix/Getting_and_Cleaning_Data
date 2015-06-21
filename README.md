@@ -8,11 +8,11 @@ To run the script you have to install the library "plyr".
 ## Running the project
 
 To run the project:
-1. Create a directory for the project.
-2. Set it as the working directory in R, using setwd("path to the directory").
-3. Download the raw data from https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip to the working directory.
-4. Download the script "run_analysis.R" to the working directory. 
-5. Run the script, using source("run_analysis.R")
+* Create a directory for the project.
+* Set it as the working directory in R, using setwd("path to the directory").
+* Download the raw data from https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip to the working directory.
+* Download the script "run_analysis.R" to the working directory. 
+* Run the script, using source("run_analysis.R")
 
 The script creates a directory "UCI HAR Dataset" with the raw data.
 The output file "tidy_data.txt" with the mean values of all variables will be created in the working directory.
